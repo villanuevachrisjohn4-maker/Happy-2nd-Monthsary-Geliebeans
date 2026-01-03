@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Happy Monthsary❤️</title>
+  <style>
+    body {
+      background: linear-gradient(to right, #ff9a9e, #fad0c4);
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding-top: 100px;
+      color: #fff;
+    }
+    .card {
+      background: rgba(0,0,0,0.3);
+      padding: 30px;
+      border-radius: 15px;
+      width: 350px;
+      margin: auto;
+    }
+    button {
+      background: #ff4d6d;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 20px;
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #ff1e56;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <h1>💖 Happy Monthsary 💖</h1>
+    <p id="message">Click the button for a surprise 😘</p>
+    <button onclick="showLove()">Click Me</button>
+  </div>
+
+  <script>
+    function showLove() {
+      document.getElementById("message").innerHTML =
+        "I love you so much ❤️<br>" +
+        "Thank you for being my happiness 😊<br>" +
+        "Here’s to many more months together 💞";
+    }
+  </script>
+
+</body>
+</html>
